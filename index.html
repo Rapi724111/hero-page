@@ -1,0 +1,69 @@
+<html>
+ <head>
+  <title>
+   Hero Section
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: url('nn.png.jpeg') no-repeat center center/cover;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+        .hero h1 {
+            color: rgb(236, 10, 10);
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            color: rgb(255, 243, 8);
+            font-size: 3em;
+            margin: 10px 0 0 0;
+        }
+        .hero img {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 150px;
+            height: auto;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            .hero p {
+                font-size: 1em;
+            }
+            .hero img {
+                width: 100px;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <section class="hero">
+   <h1>
+    Welcome to kampus masoem university
+   </h1>
+   <p>
+    nama saya rapi
+   </p>
+   <img alt="Transparent PNG image of a modern abstract design" height="150" src="logo.png" width="150"/>
+  </section>
+ </body>
+</html>
